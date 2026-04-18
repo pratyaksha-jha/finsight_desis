@@ -1,0 +1,16 @@
+ticker,sector,quantity,avg_buy_price,current_price
+AAPL,Technology,15,165.00,189.50
+MSFT,Technology,10,310.00,378.85
+GOOGL,Technology,8,125.00,141.20
+JPM,Finance,20,145.00,182.30
+BAC,Finance,30,32.00,38.75
+JNJ,Healthcare,12,155.00,147.80
+UNH,Healthcare,5,480.00,512.40
+XOM,Energy,18,95.00,112.60
+CVX,Energy,14,145.00,158.90
+WMT,Consumer Discretionary,10,150.00,172.30
+KO,FMCG,25,58.00,61.40
+PEP,FMCG,20,165.00,171.20
+TSLA,Auto,8,220.00,175.40
+NKE,Consumer Discretionary,15,95.00,88.60
+PFE,Pharma,40,28.00,26.80

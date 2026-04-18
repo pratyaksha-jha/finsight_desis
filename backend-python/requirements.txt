@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+pandas
+yfinance
+apscheduler
+openai
+python-dotenv
+numpy
+python-multipart
+scipy
+psycopg2-binary

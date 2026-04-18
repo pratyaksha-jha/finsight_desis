@@ -1,0 +1,13 @@
+{
+  "name": "finsight-migrations",
+  "version": "1.0.0",
+  "description": "Database migration runner for FinSight",
+  "main": "setup.js",
+  "scripts": {
+    "migrate": "node setup.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "pg": "^8.20.0"
+  }
+}

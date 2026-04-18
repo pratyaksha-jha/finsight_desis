@@ -1,0 +1,18 @@
+{
+  "name": "finsight-root",
+  "version": "1.0.0",
+  "scripts": {
+    "install:all": "npm i --prefix backend-node && npm i --prefix frontend && pip install -r backend-python/requirements.txt && pip install -r news-service/requirements.txt",
+    "start:node": "npm start --prefix backend-node",
+    "start:react": "npm run dev --prefix frontend",
+    "start:py-core": "cd backend-python && uvicorn app.main:app --reload --port 8000",
+    "start:py-news": "cd news-service && uvicorn app.main:app --reload --port 8001",
+    "dev": "npx concurrently \"npm run start:node\" \"npm run start:py-core\" \"npm run start:py-news\" \"npm run start:react\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.13.6"
+  }
+}
